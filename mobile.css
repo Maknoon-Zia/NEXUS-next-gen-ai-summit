@@ -1,0 +1,119 @@
+@media (max-width: 576px) {
+    #nav-header .navbar-brand img {
+        height: 22px;
+    }
+
+    /* hero ======================= */
+
+    #hero>div>div {
+        padding: 25px 20px;
+        border-radius: 30px;
+    }
+
+    .hero-top {
+        flex-direction: column;
+        gap: 5px;
+        padding: 0 0 30px 0;
+    }
+
+    #hero h1 {
+        padding: 40px 0 20px 0;
+    }
+
+    #hero img {
+        right: 0%;
+        bottom: 2%;
+    }
+
+    /* overview --------------------- */
+    .card-left-img {
+        flex-wrap: wrap;
+    }
+
+    /* agenda ----------------------- */
+    .section-heading {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #why-attend .section-heading p,
+    .section-heading p {
+        width: 100%;
+        margin: 0;
+    }
+
+    .agenda-card {
+        padding: 30px 20px 90px 20px;
+        border-radius: 30px;
+    }
+
+    .agenda-card h3 {
+        font-size: 24px;
+    }
+
+    .agenda-card h4 {
+        font-size: 20px;
+    }
+
+    /* speakers============================= */
+    #speakers article,
+    #speakers img {
+        height: 230px;
+        min-height: 230px;
+        border-radius: 20px;
+    }
+
+    /* Why Attend ================================ */
+    #why-attend article {
+        padding: 20px;
+    }
+
+    /* testimonials =========================== */
+    #testimonials {
+        --card-w: 82vw;
+        --card-h: 300px;
+        --overlap: 0px;
+    }
+
+    .testimonial-heading {
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .testimonial-controls {
+        gap: 6px;
+    }
+
+    .testimonial-controls button {
+        width: 34px;
+        height: 34px;
+    }
+
+    .testimonial-card {
+        padding: 28px;
+        border-radius: 26px;
+    }
+
+    /* register ==================================== */
+    .countdown-card {
+        padding: 25px 20px;
+        border-radius: 30px;
+    }
+
+    /* contact -------------------------- */
+
+    .contact-card {
+        padding: 20px;
+        border-radius: 30px;
+    }
+
+    .contact-left {
+        padding: 25px 20px;
+    }
+
+    .contact-map {
+        margin: 25px 0 0 0;
+        border-radius: 20px;
+    }
+
+}

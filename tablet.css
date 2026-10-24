@@ -1,0 +1,156 @@
+@media (max-width:1024px) {
+
+    /* Why Attend ================================ */
+    #why-attend span {
+        bottom: -63px;
+        font: 400 250px / 1 "Syne", sans-serif;
+    }
+}
+
+@media (max-width: 768px) {
+    #nav-header .navbar-nav {
+        padding: 20px 0 0 0;
+        gap: 5px;
+        align-items: flex-start;
+    }
+
+    /* hero ======================= */
+
+    #hero>div>div {
+        min-height: 460px;
+        padding: 30px;
+        border-radius: 40px;
+    }
+
+    .hero-top {
+        padding: 0 0 40px 0;
+    }
+
+    #hero h1 {
+        padding: 0 0 25px 0;
+    }
+
+    #hero img {
+        height: 300px;
+        opacity: 0.4;
+    }
+
+    /* overview --------------------- */
+    #overview article {
+        border-radius: 30px;
+        padding: 25px;
+    }
+
+    .card-left {
+        min-height: 320px;
+    }
+
+    .card-left-img a,
+    #speakers a {
+        font: 300 14px/1.6 "Syne", sans-serif;
+    }
+
+    /* agenda ============================================== */
+    .section-heading {
+        padding: 0 0 30px 0;
+    }
+
+    .section-heading p {
+        margin: 0;
+    }
+
+    .agenda-card {
+        padding: 40px 30px;
+        border-radius: 40px;
+    }
+
+    .agenda-card>div {
+        padding: 0 0 35px 0;
+    }
+
+    .agenda-card h4 {
+        padding: 0;
+    }
+
+    .agenda-card img {
+        opacity: 0.4;
+    }
+
+    /* speakers ======================== */
+    #speakers article,
+    #speakers img {
+        height: 280px;
+        min-height: 280px;
+        border-radius: 25px;
+    }
+
+    #speakers article {
+        padding: 15px;
+    }
+
+    /* Why Attend ================================ */
+    #why-attend article {
+        border-radius: 30px;
+    }
+
+    #why-attend span {
+        opacity: 0.4;
+    }
+
+    #why-attend p,
+    #why-attend .bottom-card p {
+        width: 100%;
+        margin: 25px 0;
+    }
+
+    #why-attend .bottom-card h3 {
+        text-align: left;
+    }
+
+    /* testimonials ============================ */
+    #testimonials {
+        --card-w: 400px;
+        --card-h: 340px;
+        --overlap: 117px;
+    }
+
+    .testimonial-card {
+        padding: 36px 36px;
+        border-radius: 32px;
+    }
+
+    /* register ===================================== */
+    .countdown-card {
+        padding: 50px;
+    }
+
+    #register img {
+        opacity: 0.4;
+    }
+
+    /* ticket-------------------------------  */
+    #ticket article {
+        padding: 25px 20px;
+        min-height: 320px;
+    }
+
+    /* contact =================================== */
+    .contact-card {
+        padding: 30px;
+        border-radius: 40px;
+    }
+
+    .contact-left h2,
+    .contact-left>p {
+        max-width: 100%;
+    }
+
+    .contact-left {
+        padding: 0 20px 0 12px;
+    }
+
+    .contact-right {
+        border-radius: 30px;
+        padding: 25px;
+    }
+}
